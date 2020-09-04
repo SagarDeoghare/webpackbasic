@@ -1,5 +1,5 @@
 let hello = () => {
-    console.log("hello, webpack");
+    console.log("hello, Webpack");
 }
 
 hello();
