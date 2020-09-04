@@ -1,6 +1,6 @@
 * This project is simple representation of webpack for typescript with nodejs 12
 - npm install
-- npm run prodbuild
+- npm run prodbuild -- it will create index.js in build directory
 
 * In this project we have typescipt file index.ts which is enttry point of project
 * We are using webpack and webpack-cli to bundle typescript files into one js
