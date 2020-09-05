@@ -7,3 +7,5 @@
 * To compile typescript files added ts-loader and typescript
 * To inherit node properties required for webpack.config, adding @tsconfig/node12 and @types/node
 * To support continuous integration we are using webpack-cli --watch 
+* This project also support express and nodemon use
+* It has use of express with sqlite3

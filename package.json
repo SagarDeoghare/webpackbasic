@@ -5,19 +5,34 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prodbuild": "./node_modules/.bin/webpack-cli"
+    "prodbuild": "webpack",
+    "build": "tsc",
+    "start:dev": "set PORT=5959 && webpack --watch --mode development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
+  "keywords": [
+    "express",
+    "typescript",
+    "webpack",
+    "webpack-cli",
+    "nodemon-webpack",
+    "sqlite3"
+  ],
+  "author": "Sagar P. Deoghare",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  },
   "devDependencies": {
+    "@types/sqlite3": "^3.1.6",
+    "@types/node": "^14.6.4",
+    "@types/express": "^4.17.8",
     "@tsconfig/node12": "^1.0.7",
-    "nodemon": "^2.0.4",
+    "nodemon-webpack-plugin": "^4.3.2",
     "ts-loader": "^8.0.3",
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "@types/node": "^14.6.4"
+    "webpack-node-externals": "^2.5.2"
   }
 }
